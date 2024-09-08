@@ -161,6 +161,8 @@ static const struct pretty_nla_desc __rings_desc[] = {
 	NLATTR_DESC_BOOL(ETHTOOL_A_RINGS_RX_PUSH),
 	NLATTR_DESC_U32(ETHTOOL_A_RINGS_TX_PUSH_BUF_LEN),
 	NLATTR_DESC_U32(ETHTOOL_A_RINGS_TX_PUSH_BUF_LEN_MAX),
+	NLATTR_DESC_U32(ETHTOOL_A_RINGS_HDS_THRESH),
+	NLATTR_DESC_U32(ETHTOOL_A_RINGS_HDS_THRESH_MAX),
 };
 
 static const struct pretty_nla_desc __channels_desc[] = {
